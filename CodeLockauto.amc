@@ -1,14 +1,13 @@
 <Root>
   <DefaultMacro>
-    <Major>Авто-подбор замка в дейз</Major>
-    <Description>СРЕДНЕЕ ВРЕМЯ ПОДБОРА 1000 КОМБИНАЦИЙ 19 МИНУТ 20 СЕКУНД - ЭТО ВСЕГО НА 1 МИНУТУ МЕДЛЕННЕЙ, ЧЕМ ВРУЧНУЮ.У ДРУГИХ СКРИПТОВ ИЗ-ЗА ИХ ОСОБЕННОСТЕЙ СРЕДНЕЕ ВРЕМЯ 20-25 МИНУТ.
-ОЧЕНЬ ВАЖНО,ЧТОБ ИГРА РАБОТАЛА БЕЗ ЛАГОВ
-1.Требуется изменить привязку клавиши прокрута замка на левую кнопку мыши(по стандарту F)
-2.Выбор цифры должен находится на X0[0]0 для 4-ёх значного и на 0[0]0 для 3-ёх значного замка.
-3.Запускаем скрипт и кликаем в игре на левую кнопку мыши!Всё,авто подбор замка пошёл,он полностью прокрутит тысячу.
-4.Дальше останавливаем скрипт,меняем тысячу(X) и снова повторяем алгоритм действий(если замок 4-ёх значный)
+    <Major>Seleção automatica do slot do codlock inicial</Major>
+    <Description> Script para codlock-DayZ Para funcionar o script ele precisa ser usado em um codlock de 4 digitos deve ser iniciar na casa 1 do codlockpara que ele consiga efetuar,
+    corretamente o destrave
+    1- Para o codigo funcionar primeiro voce precisa vincular a tecla padrao F do jogo, que serve para fazer açoes como abrir portas etc. Na tecla esquerda do Mouse
+    recomendamos o uso dos programas da logitech para executar a macro visto que sao os equipamentos como melhor desenvoltura para essas tarefas, apos ativaçao do script va ate o jogo
+    onde o codlock ja devera estar posicionado corretamente, e clicl uma vez com o botao direito do mouse, apos isso aguarde a conclusao do bypass do codlock
 </Description>
-    <Comment>27.10.2023 после часа тестов я могу уверить,что код полностью исправлен и больше не имеет недостатков и лагов.Для корректной работы скрипта всё ещё требуется хороший интернет без пролагов.</Comment>
+    <Comment>Codigo revisado e testado no dia 27/06/2024 por Leonan leyedecker.</Comment>
     <GUIOption>
       <RepeatType>0</RepeatType>
     </GUIOption>
